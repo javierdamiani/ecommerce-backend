@@ -21,11 +21,11 @@ app.use(express.json());
 app.get("/", (req, res) => {
 	res.send("Hola mundo!");
 });
+
 //Ruta
 app.use("/api/products", route_product);
 
 // Iniciar el servidor en el puerto 3000
-
 app.listen(3000, () => {
 	console.log("Servidor iniciado en el puerto 3000");
 });
