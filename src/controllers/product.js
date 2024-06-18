@@ -63,6 +63,10 @@ const createProduct = async (req, res) => {
 	}
 };
 
+// Agregar edit products
+// Agregar un Login y un register
+// JWT
+
 export default {
 	getProducts,
 	createProduct,
